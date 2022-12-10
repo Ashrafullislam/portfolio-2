@@ -1,0 +1,21 @@
+.service-card{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    box-shadow: rgba(114, 112, 112, 0.35) 0px 5px 15px;
+}
+.service-card:hover{
+    transform: translateY(-20px);
+    background-color: rgb(6, 5, 31);
+}
+.button{
+    box-shadow: rgba(114, 112, 112, 0.35) 0px 5px 15px;
+
+}
+.shadow{
+    box-shadow: rgba(114, 112, 112, 0.35) 0px 5px 15px;
+
+}
+.projects-card{
+    box-shadow: rgba(114, 112, 112, 0.35) 0px 5px 15px;
+
+}
