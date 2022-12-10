@@ -2,7 +2,7 @@ import React from 'react';
 import './Banner.css';
 import Image from '../../../Portfolio/banner-img-removebg-preview (2).png';
 import { Typewriter } from 'react-simple-typewriter'
-import { FaArrowRight, FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
+import {  FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 import javascript from '../../../Portfolio/Icon/javascript.png';
 import react from '../../../Portfolio/Icon/react-removebg-preview.png';
 import node  from '../../../Portfolio/Icon/node-removebg-preview.png';
@@ -49,9 +49,11 @@ const Banner = () => {
                              <div className='banner-social-icon'>
                                <a href='/' > <FaInstagramSquare  className='text-2xl' /> </a>
                              </div>
+                             <a href="https://www.linkedin.com/in/md-ashrafull-islam-2ba9aa259/"> 
                              <div className='banner-social-icon'>
-                               <a href="/">    <FaLinkedin  className='text-2xl' /></a>
+                                 <FaLinkedin  className='text-2xl' />
                              </div>
+                             </a>
                         </div>
                      </div>
                      
