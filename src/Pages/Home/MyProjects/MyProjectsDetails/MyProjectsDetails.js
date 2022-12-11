@@ -1,10 +1,15 @@
 import React from 'react';
 import { FaCheckCircle } from 'react-icons/fa';
 import {useLoaderData} from 'react-router-dom';
+import './MyProductsDetails.css';
+// react photoview css link 
+import 'react-photo-view/dist/react-photo-view.css';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+
 
 const MyProjectsDetails = () => {
   const project = useLoaderData ();
-  const {discription,client,details,name,liveUrl,photo1,photo2,photoURL,server} = project;
+  const {client,details,name,liveUrl,photo1,photo2,photo3,photo4,photo5,photoURL,server} = project;
   console.log (project);
 
   return (
@@ -12,12 +17,12 @@ const MyProjectsDetails = () => {
       <h2 className="text-3xl text-center font-bold"> Projects Details </h2>
       <div>
         <div className="card  bg-base-100 shadow mt-6">
-          <figure className='w-10/12 mx-auto'>
+          <figure className='w-5/6 mx-auto'>
             <img src={photoURL} className="w-full" alt="Album" />
           </figure>
           <div className="card-body">
             <h2 className=" text-2xl font-bold ml-12 "> {name} </h2>
-            <div className='flex gap-4 text-2xl flex-col ml-12'>
+            <div className='flex gap-4 text-xl flex-col ml-12'>
             <p className='flex items-center gap-2'> <FaCheckCircle className='text-warning' /> {details?.one} </p>
             <p className='flex items-center gap-2'> <FaCheckCircle className='text-warning' /> {details?.two} </p>
             <p className='flex items-center gap-2'> <FaCheckCircle className='text-warning' /> {details?.three} </p>
@@ -42,6 +47,69 @@ const MyProjectsDetails = () => {
           </div>
         </div>
       </div>
+      {/* more image of this  projecs  */}
+      <section className='mt-12 rounded-lg bg-primary shadow px-8 py-6 mb-20 ' >
+        <h1 className='text-3xl font-bold text-center mt-5 mb-8'> More image of this projects page  </h1>
+        <div className='grid lg:grid-cols-2 grid-cols-1  gap-x-6 gap-y-16 mt-4'>
+
+      
+        <figure className='w-11/12'>
+            <PhotoProvider > 
+               <PhotoView  src={photo1}>
+                  <img src={photo1} alt="" className="w-full h-96 rounded-md projects-img" />
+                </PhotoView>
+             </PhotoProvider>
+         </figure>
+
+
+            {/* <figure className='w-11/12'>
+                <img src={photo2} className="w-full h-96 rounded-md projects-img" alt="" />
+            </figure> */}
+         <figure className='w-11/12'>
+            <PhotoProvider > 
+               <PhotoView  src={photo2}>
+                  <img src={photo2} alt="" className="w-full h-96 rounded-md projects-img" />
+                </PhotoView>
+             </PhotoProvider>
+            </figure>
+
+            {
+                photo3 && 
+             <figure className='w-11/12'>
+                <PhotoProvider > 
+                   <PhotoView  src={photo3}>
+                      <img src={photo3} alt="" className="w-full h-96 rounded-md projects-img" />
+                    </PhotoView>
+                 </PhotoProvider>
+             </figure>
+            }
+            
+            {
+                photo4 && 
+             <figure className='w-11/12'>
+                <PhotoProvider > 
+                   <PhotoView  src={photo4}>
+                      <img src={photo4} alt="" className="w-full h-96 rounded-md projects-img" />
+                    </PhotoView>
+                 </PhotoProvider>
+             </figure>
+            }
+            
+            
+            {
+                photo5 && 
+                <figure className='w-11/12'>
+                <PhotoProvider > 
+                   <PhotoView  src={photo5}>
+                      <img src={photo5} alt="" className="w-full h-96 rounded-md projects-img" />
+                    </PhotoView>
+                 </PhotoProvider>
+             </figure>
+            }
+           
+
+        </div>
+      </section>
     </section>
   );
 };
