@@ -5,7 +5,7 @@ import './Service.css';
 
 const Service = () => {
   return (
-    <section className="mt-24 mb-24 w-10/12 mx-auto">
+    <section className="mt-36 mb-24 w-10/12 mx-auto">
         <UnderLine > </UnderLine>
         <div>
           <a href="https://drive.google.com/file/d/1r9ppQ-BYCPyTdacUqUcKqTLIbwNcDdIg/view?usp=share_link"> <button className='btn bg-primary border-none shadow hover:bg-secondary text-slate-300 ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>

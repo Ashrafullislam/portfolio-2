@@ -5,6 +5,15 @@
       "index": 0,
       "photoURL": "https://i.ibb.co/3C2M7cn/Screenshot-20221210-072510.png",
       "name": "Doctors Appointment",
+      "details":{
+        "one":"Paitent Can booking his/her appoinment",
+        "two":" Paitent Can see available tickects of specific doctors",
+        "three": "Paitent can delete Appointment",
+        "four": " There is also a Deshboard",
+        "five": "Higher security for admin ",
+        "six":"Admin can controll user and add Doctors",
+        "seven":"Admin can manage doctors and Delete doctors"
+      },
       "discription": " This projects make for doctors appoinment . Paitent can booking their appointment by select more option and by click calender ."
     },
     {
@@ -13,6 +22,7 @@
       "index": 1,
       "photoURL": "https://i.ibb.co/H4QQZN8/2022-12-10-20-32-29.png" ,
       "name": "Computer Resell",
+      "url": "https://computer-resell.firebaseapp.com/",
       "discription": "It is the second hand product resell website . Seller can add her  own products and advertise his/her product by openning seller account . User/Buyer can buy the  products from this website . Admin can handle users "
     },
     {
@@ -21,6 +31,7 @@
       "index": 2,
       "photoURL": "https://i.ibb.co/d6Jhfhr/2022-12-10-20-36-20.png" ,
       "name": "Travels Zone",
+      "url": "https://travel-zone-c87fe.web.app/",
       "discription": "Its the  travels-zone websites. Its make for traveller . Who can booking their favourite places hotel room and viehicles. And they are also find many wonderfull places with image and details ."
     },
     {
@@ -29,6 +40,7 @@
       "index": 3,
       "photoURL": "https://i.ibb.co/ZL6VntD/Screenshot-63.png",
       "name": "Learn Programme ",
+      "url": "https://computer-science-learning.firebaseapp.com/",
       "discription": " Leaner can learn and practice their cooding knowledge about computer science . A begginer  programmer can see about many programming language structure and he can larn more  more  and more from this webpage ."
     },
     {
@@ -37,6 +49,7 @@
       "index": 4,
       "photoURL": "https://i.ibb.co/jr3Qzvt/Screenshot-64.png",
       "name": "Amazon Shpping ",
+      "url": "https://amazon-shop-reactjs.netlify.app",
       "discription": "Its the  online shooping mart like amazon . This website user friendly and customer can see many products and they can add products in shopping cart. "
     },
     {
@@ -45,6 +58,7 @@
       "index": 5,
       "photoURL": "https://i.ibb.co/2ZbFmHK/Screenshot-65.png",
       "name": "Hire best Player",
+      "url": "https://hired-five-best-player.netlify.app",
       "discription": " Any one can hire best football player and he / she can also calculate their budget .They can select footballer  and see their name and per head budget . "
     }
   ]

@@ -17,10 +17,10 @@ const Banner = () => {
             <div className='banner-left '>
                 <div className='p-5 mt-6'>
                     <h3 className='text-xl '> Wellcome to my world </h3>
-                    <h1 className='lg:text-5xl md:text-3xl text-2xl mt-3 font-bold'> Hi, I'm <spanm className ="text-warning"> Ashrafull Islam </spanm>  </h1>
-                    <h1 className='lg:text-5xl md:text-3xl text-2xl font-bold mt-5'>
+                    <h1 className='lg:text-4xl md:text-3xl text-2xl mt-3 font-bold'> Hi, I'm <spanm className ="text-warning"> Ashrafull Islam </spanm>  </h1>
+                    <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold mt-5'>
                         A   
-                 <span className='text-white  font-bold lg:text-5xl md:text-3xl text-2xl ml-3'>
+                 <span className=' font-bold lg:text-4xl md:text-3xl text-2xl ml-3'>
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
                         words={['Web Developer', 'Front-end Developer', 'Mern Stack Developer', 'Node js Developer ', 'React js Developer']}
@@ -39,7 +39,7 @@ const Banner = () => {
                     </p>
 
             {/* banner social icon part  */}
-            <div className='mt-24 lg:flex md:flex justify-between'>
+            <div className='mt-14 lg:flex md:flex justify-between'>
               <div>
                  <h2> Find me with </h2>
                     <div className='flex gap-4 mt-4'>
@@ -60,7 +60,7 @@ const Banner = () => {
                      {/* banner skill icon part  */}
                      <div>
                   <h2> My best skill in </h2>
-                    <div className='flex gap-4 mt-4'>
+                    <div className='flex gap-3 mt-4'>
                        <div className='banner-social-icon'> 
                              <a href='/' > <img src={javascript} alt='' className='w-6 h-6' /> </a>
                             </div>

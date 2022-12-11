@@ -26,7 +26,7 @@ const Navbar = () => {
          {menu}
       </ul>
   </div>
-    <img src={profile} className='lg:w-16 lg:h-16 w-12 h-12 rounded-full' alt='profile' />
+    <img src={profile} className='lg:w-12 lg:h-12 w-12 h-12 rounded-full' alt='profile' />
     <Link to="/" className="btn btn-ghost normal-case text-xl">Ashrafull</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
