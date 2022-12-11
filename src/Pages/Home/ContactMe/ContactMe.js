@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import {
   FaEnvelope,
   FaFacebookSquare,
@@ -10,21 +10,30 @@ import contact from '../../../Portfolio/contact1.png';
 import UnderLine from '../../../UnderLine/UnderLine';
 import './ContactMe.css';
 // emailjs for receive  email from user 
-
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-hot-toast';
 
 const ContactMe = () => {
-  const form = useRef();
+  // it main source is email.js 
+  // user: ashrafull130@gmail.com
+  // pass: Ashr@full17#
   
+  const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    // copy the servcie id from email.js 
+
+    emailjs.sendForm('service_2ce5aoz', 'template_1ux0ayk', e.target, 'THr9G3BgjU2Jfxd6U')
       .then((result) => {
           console.log(result.text);
+          toast.success(" Your message  has been sent successfully  ")
       }, (error) => {
           console.log(error.text);
       });
+
+      e.target.reset();
   };
 
 
@@ -156,7 +165,7 @@ const ContactMe = () => {
               <label className="label">
                 <span className="label-text">Your Message </span>
               </label>
-              <textarea
+              <textarea  name="message"
                 className="textarea  text-slate-200 px-2 h-32 bg-secondary   textarea-bordered "
                 placeholder="Please write your message "
               />
