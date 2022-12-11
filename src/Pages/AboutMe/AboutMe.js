@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaArrowRight, FaHeadSideVirus, FaMapMarkerAlt, FaSlideshare, FaUserGraduate } from 'react-icons/fa';
+import { FaArrowRight, FaEnvelope, FaHeadSideVirus, FaMapMarkerAlt, FaPhoneAlt, FaSlideshare, FaUserGraduate } from 'react-icons/fa';
 import about from '../../Portfolio/AboutMe/Aboutme.png';
 import './AboutMe.css';
 
@@ -12,7 +12,7 @@ const AboutMe = () => {
        <figure className=' bg-primary about-me-img rounded-lg shadow w-96'>
          <img src={about} alt="Movie" className='mx-auto' />
   
-         </figure>
+        </figure>
 
   <div className="about-me-body ">
     <h2 className="text-2xl font-semibold mb-3"> Md. Ashrafull Islam </h2>
@@ -40,6 +40,10 @@ const AboutMe = () => {
         <h2 className='flex  gap-2'><FaSlideshare className='text-warning ' /> hobby:</h2>
          <h1> Cooding, Travelling , Driving, Reading Book  </h1>
       </div>
+      <h2 className='flex items-center gap-2 mt-2'>
+        <FaEnvelope className='text-warning ' /> ashrafull130@gmail.com
+      </h2>
+      <h2 className='flex items-center gap-2 mt-2' > <FaPhoneAlt className='text-warning  ' /> +88 01778 231817 </h2>
     <div className="card-actions justify-end mt-4">
     <div>
           <a href="https://drive.google.com/file/d/1r9ppQ-BYCPyTdacUqUcKqTLIbwNcDdIg/view?usp=share_link"> <button className='btn bg-primary border-none shadow hover:bg-secondary text-slate-300 ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>

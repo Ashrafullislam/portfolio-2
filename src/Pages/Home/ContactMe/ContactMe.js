@@ -38,7 +38,7 @@ const ContactMe = () => {
 
 
   return (
-    <section className="mt-16 mb-16 w-10/12 mx-auto">
+    <section id='contact' className="mt-16 mb-16 w-10/12 mx-auto">
       <UnderLine> </UnderLine>
       <h4 className="text-lg  text-warning text-center"> Contact </h4>
       <h1 className=" xl:text-5xl lg:text-5xl md:text-3xl text-3xl font-bold text-center ">
@@ -82,7 +82,7 @@ const ContactMe = () => {
                   <h2> Find me with </h2>
 
                   <div className="flex gap-4 mt-4">
-                    
+
                     <div className="banner-social-icon">
 
                       <a href="/">
@@ -119,7 +119,7 @@ const ContactMe = () => {
                 <input
                   type="text"
                   name="name"
-                  class="w-full px-4 text-slate-200 h-14 mt-2  bg-secondary  rounded-sm"
+                  class="w-full px-4 text-slate-200 h-14 mt-2  bg-secondary  rounded-lg"
                 />
 
               </label>
@@ -131,7 +131,7 @@ const ContactMe = () => {
                 <input
                   type="number"
                   name="phone"
-                  class="w-full px-4 text-slate-200 bg-secondary h-14 mt-2 rounded-sm"
+                  class="w-full px-4 text-slate-200 bg-secondary h-14 mt-2 rounded-lg"
                   required
                 />
               </label>
@@ -144,7 +144,7 @@ const ContactMe = () => {
               <input
                 type="email"
                 name="email"
-                class="w-full px-4 text-slate-200 bg-secondary h-14 mt-2 rounded-sm"
+                class="w-full px-4 text-slate-200 bg-secondary h-14 mt-2 rounded-lg"
                 required
               />
               <p class="mt-2 invisible peer-invalid:visible text-pink-600 text-sm">
@@ -159,7 +159,7 @@ const ContactMe = () => {
               <input
                 type="text"
                 name="subject"
-                class="w-full text-slate-200 px-4 h-14 bg-secondary mt-2 rounded-sm"
+                class="w-full text-slate-200 px-4 h-14 bg-secondary mt-2 rounded-lg"
               />
 
             </label>

@@ -11,7 +11,7 @@ const Navbar = () => {
     <li> <NavLink to="/aboutme"> About Me </NavLink> </li>
     <li> <NavLink to="/blog"> Blog </NavLink> </li>
     <li> <a href='https://drive.google.com/file/d/1r9ppQ-BYCPyTdacUqUcKqTLIbwNcDdIg/view?usp=share_link'> Resume</a> </li>
-    <li> <NavLink to="/contactme"> Contact Me  </NavLink> </li>
+    <li> <a href='#contact' > Contact Me  </a> </li>
     </>
 
     return (
