@@ -11,7 +11,8 @@ const MyProjects = () => {
         .then(projects => setProjects(projects))
     },[])
     return (
-        <div className='w-10/12 mx-auto'>
+        <section className='w-full bg-primary py-8'>
+         <div className='w-10/12 mx-auto'>
             <div>
                 <UnderLine  > </UnderLine>
             </div>
@@ -26,6 +27,8 @@ const MyProjects = () => {
                 }
              </div>
         </div>
+        </section>
+      
     );
 };
 

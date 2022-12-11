@@ -38,7 +38,8 @@ const ContactMe = () => {
 
 
   return (
-    <section id='contact' className="mt-16 mb-16 w-10/12 mx-auto">
+    <section id='contact' className='w-full bg-primary  py-6'>
+      <section className="mt-16 mb-16 w-10/12 mx-auto ">
       <UnderLine> </UnderLine>
       <h4 className="text-lg  text-warning text-center"> Contact </h4>
       <h1 className=" xl:text-5xl lg:text-5xl md:text-3xl text-3xl font-bold text-center ">
@@ -179,7 +180,9 @@ const ContactMe = () => {
         </div>
 
       </div>
-    </section>
+     </section>
+   </section>
+     
   );
 };
 
