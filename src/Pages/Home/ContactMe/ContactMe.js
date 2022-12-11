@@ -17,7 +17,7 @@ const ContactMe = () => {
   // it main source is email.js 
   // user: ashrafull130@gmail.com
   // pass: Ashr@full17#
-  
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -80,8 +80,11 @@ const ContactMe = () => {
               <div className="card-actions">
                 <div>
                   <h2> Find me with </h2>
+
                   <div className="flex gap-4 mt-4">
+                    
                     <div className="banner-social-icon">
+
                       <a href="/">
                         {' '}<FaFacebookSquare className="text-2xl" />{' '}
                       </a>
