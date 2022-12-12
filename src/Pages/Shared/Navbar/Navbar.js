@@ -16,7 +16,7 @@ const Navbar = () => {
 
     return (
  <div>
- <div className="navbar shadow-lg bg-base-100 px-14">
+ <div className="navbar shadow-lg bg-base-100 py-3 px-14">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -26,10 +26,10 @@ const Navbar = () => {
          {menu}
       </ul>
   </div>
-    <img src={profile} className='lg:w-12 lg:h-12 w-12 h-12 rounded-full' alt='profile' />
+    <img src={profile} className='lg:w-12 lg:h-12 w-16 h-16 rounded-full' alt='profile' />
     <Link to="/" className="btn btn-ghost normal-case text-xl">Ashrafull</Link>
   </div>
-  <div className="navbar-center hidden lg:flex">
+  <div className="navbar-end hidden lg:flex">
     <ul className="menu menu-horizontal px-1"> 
      {menu}
     </ul>

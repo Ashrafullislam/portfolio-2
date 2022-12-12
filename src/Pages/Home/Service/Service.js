@@ -5,8 +5,8 @@ import './Service.css';
 
 const Service = () => {
   return (
-    <section className="bg-primary w-full py-8 " >
-      <div  className="mt-36 mb-24 w-10/12 mx-auto " >
+    <section className="bg-primary w-full py-4 " >
+      <div  className="mt-24 mb-24 w-10/12 mx-auto " >
       <div>
       <UnderLine > </UnderLine>
           <a href="https://drive.google.com/file/d/1r9ppQ-BYCPyTdacUqUcKqTLIbwNcDdIg/view?usp=share_link"> <button className='btn bg-primary border-none shadow hover:bg-secondary text-slate-300 ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>

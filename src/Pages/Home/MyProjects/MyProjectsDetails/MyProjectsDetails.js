@@ -14,7 +14,7 @@ const MyProjectsDetails = () => {
 
   return (
     <section className='w-11/12 mx-auto'>
-      <h2 className="text-3xl text-center font-bold"> Projects Details </h2>
+      <h2 className="text-3xl text-center font-bold mt-3"> Projects Details </h2>
       <div>
         <div className="card  bg-base-100 shadow mt-6">
           <figure className='w-5/6 mx-auto'>
@@ -39,10 +39,12 @@ const MyProjectsDetails = () => {
        
           
             <div className="card-actions justify-end">
-              <a href={liveUrl}><button className="btn text-warning bg-primary">Live Site</button></a>
-              <a href={client}><button className="btn text-warning bg-primary">Client Repo</button></a>
+              <a href={liveUrl}><button className="btn text-warning bg-primary
+               hover:bg-secondary">Live Site</button></a>
+              <a href={client}><button className="btn text-warning bg-primary 
+               hover:bg-secondary">Client Repo</button></a>
 
-             <a href={server} >  <button className="btn text-warning bg-primary">Server Repo</button></a>
+             <a href={server} >  <button className="btn text-warning bg-primary hover:bg-secondary">Server Repo</button></a>
             </div>
           </div>
         </div>

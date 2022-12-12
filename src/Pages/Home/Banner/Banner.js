@@ -61,7 +61,7 @@ const Banner = () => {
                               quantity: 4,
                           },
                           repulse: {
-                              distance: 200,
+                              distance: 10,
                               duration: 0.6,
                           },
                       },
@@ -72,7 +72,7 @@ const Banner = () => {
                       },
                       links: {
                           color: "#ff004c",
-                          distance: 150,
+                          distance: 100,
                           enable: true,
                           opacity: 0.5,
                           width: 1,
@@ -95,7 +95,7 @@ const Banner = () => {
                               enable: true,
                               area: 800,
                           },
-                          value: 100,
+                          value: 200,
                       },
                       opacity: {
                           value: 0.5,
@@ -115,10 +115,10 @@ const Banner = () => {
             <div className='banner-left '>
                 <div className='p-5 mt-6'>
                     <h3 className='text-xl '> Wellcome to my world </h3>
-                    <h1 className='lg:text-4xl md:text-3xl text-2xl mt-3 font-bold'> Hi, I'm <spanm className ="text-warning"> Ashrafull Islam </spanm>  </h1>
-                    <h1 className='lg:text-4xl md:text-3xl text-2xl font-bold mt-5'>
+                    <h1 className='lg:text-5xl md:text-3xl text-2xl mt-3 font-bold'> Hi, I'm <spanm className ="text-warning"> Ashrafull Islam </spanm>  </h1>
+                    <h1 className='lg:text-5xl md:text-3xl text-2xl font-bold mt-5'>
                         A   
-                 <span className=' font-bold lg:text-4xl md:text-3xl text-2xl ml-3'>
+                 <span className=' font-bold lg:text-5xl md:text-3xl text-2xl ml-3'>
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
                         words={['Web Developer', 'Front-end Developer', 'Mern Stack Developer', 'Node js Developer ', 'React js Developer']}
