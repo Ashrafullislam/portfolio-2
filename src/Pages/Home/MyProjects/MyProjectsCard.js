@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const MyProjectsCard = ({project}) => {
-    const {name,discription,photoURL,url,id} = project;
+    const {name,discription,photoURL,id} = project;
   return (
     <div>
       <div className="card projects-card w-11/12 m-3 bg-base-100 shadow-xl">

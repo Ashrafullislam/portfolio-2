@@ -21,8 +21,8 @@ const MyProjectsDetails = () => {
             <img src={photoURL} className="w-full" alt="Album" />
           </figure>
           <div className="card-body">
-            <h2 className=" text-2xl font-bold ml-12 "> {name} </h2>
-            <div className='flex gap-4 text-xl flex-col ml-12'>
+            <h2 className=" text-2xl font-bold lg:ml-12 ml-5 "> {name} </h2>
+            <div className='flex gap-4 text-xl flex-col lg:ml-12 md:ml-5 '>
             <p className='flex items-center gap-2'> <FaCheckCircle className='text-warning' /> {details?.one} </p>
             <p className='flex items-center gap-2'> <FaCheckCircle className='text-warning' /> {details?.two} </p>
             <p className='flex items-center gap-2'> <FaCheckCircle className='text-warning' /> {details?.three} </p>

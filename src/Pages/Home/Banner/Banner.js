@@ -2,7 +2,7 @@ import React, { useCallback } from 'react';
 import './Banner.css';
 import Image from '../../../Portfolio/banner-img-removebg-preview (2).png';
 import { Typewriter } from 'react-simple-typewriter'
-import {  FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
+import {  FaArrowRight, FaFacebookSquare, FaInstagramSquare, FaLinkedin } from 'react-icons/fa';
 import javascript from '../../../Portfolio/Icon/javascript.png';
 import react from '../../../Portfolio/Icon/react-removebg-preview.png';
 import node  from '../../../Portfolio/Icon/node-removebg-preview.png';
@@ -176,7 +176,9 @@ const Banner = () => {
                   </div>
                 </div>
                
-                       
+                      <div className='lg:ml-4 mt-2 '>
+                      <a href="https://drive.google.com/file/d/1YyFtHDR_23-DhD2l7oGuF5_9Tg0vANNS/view?usp=share_link"> <button className='btn  bg-gradient-to-r from-warning to-primary border-none shadow text-slate-200 hover:bg-gradient-to-r hover:from-primary hover:to-warning ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>
+                        </div> 
             </div>
 
   

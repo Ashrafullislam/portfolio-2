@@ -10,13 +10,13 @@ const Navbar = () => {
     <li> <NavLink to="/home"> Home </NavLink> </li>
     <li> <NavLink to="/aboutme"> About Me </NavLink> </li>
     <li> <NavLink to="/blog"> Blog </NavLink> </li>
-    <li> <a href='https://drive.google.com/file/d/1r9ppQ-BYCPyTdacUqUcKqTLIbwNcDdIg/view?usp=share_link'> Resume</a> </li>
-    <li> <a href='#contact' > Contact Me  </a> </li>
+    <li> <a href='https://drive.google.com/file/d/1YyFtHDR_23-DhD2l7oGuF5_9Tg0vANNS/view?usp=share_link'> Resume</a> </li>
+    <li> <NavLink to='/contact' > Contact Me  </NavLink> </li>
     </>
 
     return (
  <div>
- <div className="navbar shadow-lg bg-base-100 py-3 px-14">
+ <div className="navbar shadow-lg bg-base-100 py-3 lg:px-14 md:px-7 ">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
