@@ -25,6 +25,12 @@ const MySkills = () => {
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
@@ -41,6 +47,12 @@ const MySkills = () => {
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
@@ -52,18 +64,25 @@ const MySkills = () => {
           height="10px"
           rect
           fontColor="#c2d0ea"
-          percentage="90"
+          percentage="92"
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
        
         <div>
          <label > Tailwind </label>
-         <ProgressBar
+         <ProgressBar 
+         backgroundColor="red"
           width="90%"
           height="10px"
           rect
@@ -72,7 +91,13 @@ const MySkills = () => {
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
-          bgColor="red"
+          bgColor="white"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
@@ -84,11 +109,17 @@ const MySkills = () => {
           height="10px"
           rect
           fontColor="#c2d0ea"
-          percentage="90"
+          percentage="80"
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
@@ -99,41 +130,59 @@ const MySkills = () => {
           height="10px"
           rect
           fontColor="#c2d0ea"
-          percentage="90"
+          percentage="77"
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
         <div>
          <label > Node js </label>
          <ProgressBar
-          width="65%"
+          width="75%"
           height="10px"
           rect
           fontColor="#c2d0ea"
-          percentage="90"
+          percentage="70"
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
         <div>
          <label > Express js </label>
          <ProgressBar
-          width="60%"
+          width="70%"
           height="10px"
           rect
           fontColor="#c2d0ea"
-          percentage="90"
+          percentage="70"
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
@@ -144,11 +193,17 @@ const MySkills = () => {
           height="10px"
           rect
           fontColor="#c2d0ea"
-          percentage="90"
+          percentage="82"
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
@@ -160,11 +215,17 @@ const MySkills = () => {
           height="10px"
           rect
           fontColor="#c2d0ea"
-          percentage="90"
+          percentage="70"
           rectPadding="1px"
           rectBorderRadius="20px"
           trackPathColor="transparent"
           bgColor="red"
+          defColor={{
+            fair: 'orangered',
+            good: 'yellow',
+            excellent:  "#ff014f",
+            poor: 'red',
+          }}
           trackBorderColor="grey"
         />
         </div>
