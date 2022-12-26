@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import './MyProjectsCard';
 const MyProjectsCard = ({project}) => {
     const {name,discription,photoURL,id} = project;
   return (
-    <div>
-      <div className="card projects-card w-11/12 m-3 bg-base-100 shadow-xl"  data-aos="zoom-in-down">
+    <div className='projects w-11/12 shadow-xl  m-3 rounded-md' >
+      <div className="card  w-full  bg-base-100 "  data-aos="zoom-in-down"  >
         <figure className=' pt-5'>
           <img src={photoURL} alt="Shoes" className='h-56 ' />
         </figure>
@@ -21,7 +21,7 @@ const MyProjectsCard = ({project}) => {
         
            {/* <a href={url} > <button className='btn btn-sm bg-primary button hover:bg-secondary border-none text-slate-100' > Live projects </button> </a> */}
           <Link to={`/myprojectsdetails/${id}`} > 
-          <button  className='btn btn-sm bg-primary button hover:bg-secondary border-none text-slate-100' > More explore  </button>
+          <button  className='btn btn-md bg-primary button hover:bg-secondary border-none text-slate-100' > More explore  </button>
            </Link>
           </div>
         </div>

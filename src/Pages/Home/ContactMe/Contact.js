@@ -39,8 +39,8 @@ const Contact = () => {
   return (
     <section  className='w-full bg-primary  py-6'>
       <section className="mt-16 mb-16 w-10/12 mx-auto ">
-      <h4 className="text-lg  text-warning text-center"> Contact </h4>
-      <h1 className=" xl:text-5xl lg:text-5xl md:text-3xl text-3xl font-bold text-center ">
+      <h4 className="text-lg  text-warning text-center" data-aos="zoom-in-down"> Contact </h4>
+      <h1 className=" xl:text-5xl lg:text-5xl md:text-3xl text-3xl font-bold text-center " data-aos="flip-left" data-aos-duration="1000">
         {' '}Contact With Me{' '}
       </h1>
 
@@ -49,7 +49,7 @@ const Contact = () => {
      <div className='contact-main'>
         
         {/* contact part-one  */}
-          <div className="w-full mx-auto rounded-xl py-5 px-10 bg-primary  shadow h-auto">
+          <div className="w-full mx-auto rounded-xl py-5 px-10 bg-primary  shadow h-auto" data-aos="fade-right">
           <form className="mt-5"   ref={form} onSubmit={sendEmail} >
             <div className="flex lg:flex-row flex-col justify-between gap-7 ">
 
@@ -122,7 +122,7 @@ const Contact = () => {
 
          {/* contact-right part  */}
         <div>
-        <div className="card w-full  shadow ">
+        <div className="card w-full  shadow " data-aos="fade-left">
            <figure className="px-10 pt-10">
              <img src={contact} alt="Shoes" className="rounded-xl" />
            </figure>

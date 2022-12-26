@@ -37,3 +37,14 @@
         padding: 10px;
     }
 }
+
+.projects{
+    transition: all .3s ease-in-out;
+}
+
+.projects:hover {
+ transform: translateY(-20px);
+ position: relative;
+ /* box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; */
+ box-shadow: rgba(248, 251, 252, 0.671) -5px 5px, rgba(245, 240, 240, 0.3) -10px 10px, rgba(204, 200, 203, 0.2) -15px 15px, rgba(175, 172, 174, 0.1) -20px 20px, rgba(146, 142, 145, 0.05) -25px 25px;
+}
