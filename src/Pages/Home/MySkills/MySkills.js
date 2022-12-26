@@ -10,9 +10,9 @@ const MySkills = () => {
         {/* main skill div start  */}
         <div className='w-10/12 mx-auto'>
         <UnderLine > </UnderLine>
-        <h4 className="text-warning text-lg ml-5 "> Skills </h4>
-      <h1 className="lg:text-4xl  font-bold ml-5 "> My Skills </h1>
-      <div className='w-full mt-14 bg-primary shadow mx-auto prog-line '>
+        <h4 className="text-warning text-lg ml-5 " data-aos="fade-down"> Skills </h4>
+      <h1 className="lg:text-4xl  font-bold ml-5 " data-aos="zoom-in-up"> My Skills </h1>
+      <div className='w-full mt-14 bg-primary shadow mx-auto prog-line ' data-aos="fade-up-right">
         <div>
          <label className='m-0' > Html </label>
          <ProgressBar

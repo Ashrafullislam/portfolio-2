@@ -5,7 +5,7 @@ const MyProjectsCard = ({project}) => {
     const {name,discription,photoURL,id} = project;
   return (
     <div>
-      <div className="card projects-card w-11/12 m-3 bg-base-100 shadow-xl">
+      <div className="card projects-card w-11/12 m-3 bg-base-100 shadow-xl"  data-aos="zoom-in-down">
         <figure className=' pt-5'>
           <img src={photoURL} alt="Shoes" className='h-56 ' />
         </figure>

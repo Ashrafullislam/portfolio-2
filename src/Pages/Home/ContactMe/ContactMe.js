@@ -41,8 +41,8 @@ const ContactMe = () => {
     <section id='contact' className='w-full bg-primary  py-6'>
       <section className="mt-16 mb-16 w-10/12 mx-auto ">
       <UnderLine> </UnderLine>
-      <h4 className="text-lg  text-warning text-center"> Contact </h4>
-      <h1 className=" xl:text-5xl lg:text-5xl md:text-3xl text-3xl font-bold text-center ">
+      <h4 className="text-lg  text-warning text-center" data-aos="zoom-out-down"> Contact </h4>
+      <h1 className=" xl:text-5xl lg:text-5xl md:text-3xl text-3xl font-bold text-center " data-aos="flip-right" data-aos-duration="1000">
         {' '}Contact With Me{' '}
       </h1>
 
@@ -50,8 +50,8 @@ const ContactMe = () => {
       {/* contact main section  */}
      <div className='contact-main'>
         
-        {/* contact part-one  */}
-          <div className="w-full mx-auto rounded-xl py-5 px-10 bg-primary  shadow h-auto">
+        {/* contact part-right  */}
+          <div className="w-full mx-auto rounded-xl py-5 px-10 bg-primary  shadow h-auto" data-aos="fade-up-left">
           <form className="mt-5"   ref={form} onSubmit={sendEmail} >
             <div className="flex lg:flex-row flex-col justify-between gap-7 ">
 
@@ -122,8 +122,8 @@ const ContactMe = () => {
          </div> 
          {/* contact left part one end  */}
 
-         {/* contact-right part  */}
-        <div>
+         {/* contact-left part  */}
+        <div data-aos="fade-up-right">
         <div className="card w-full  shadow ">
            <figure className="px-10 pt-10">
              <img src={contact} alt="Shoes" className="rounded-xl" />
