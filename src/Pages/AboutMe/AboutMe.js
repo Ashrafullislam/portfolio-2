@@ -44,10 +44,10 @@ const AboutMe = () => {
         <h2 className='flex  gap-2'><FaSlideshare className='text-warning ' /> hobby:</h2>
          <h1> Cooding, Travelling , Driving, Reading Book  </h1>
       </div>
-      <h2 className='flex items-center gap-2 mt-2' data-aos="zoom-in-down">
+      <h2 className='flex items-center gap-2 mt-2' >
         <FaEnvelope className='text-warning ' /> ashrafull130@gmail.com
       </h2>
-      <h2 className='flex items-center gap-2 mt-2' data-aos="fade-right" > <FaPhoneAlt className='text-warning  ' /> +88 01778 231817 </h2>
+      <h2 className='flex items-center gap-2 mt-2'  > <FaPhoneAlt className='text-warning  ' /> +88 01778 231817 </h2>
     <div className="card-actions lg:justify-end mt-4">
     <div >
           <a href="https://drive.google.com/file/d/1YyFtHDR_23-DhD2l7oGuF5_9Tg0vANNS/view?usp=share_link"> <button className='btn  bg-gradient-to-r from-warning to-primary border-none shadow text-slate-200 hover:bg-gradient-to-r hover:from-primary hover:to-warning  ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>
