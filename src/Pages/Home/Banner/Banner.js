@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useEffect } from 'react';
 import './Banner.css';
 import Image from '../../../Portfolio/banner-img-removebg-preview (2).png';
 import { Typewriter } from 'react-simple-typewriter'
@@ -10,12 +10,12 @@ import mongodb from '../../../Portfolio/Icon/mongo.png';
 // react ts particle animation 
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 const Banner = () => {
     const particlesInit = useCallback(async engine => {
-      console.log(engine);
       // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
       // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
       // starting from v2 you can add only the features you need reducing the bundle size
@@ -25,6 +25,12 @@ const Banner = () => {
   const particlesLoaded = useCallback(async container => {
       await console.log(container);
   }, []);
+
+
+  useEffect(()=> {
+   Aos.init({duration:1000})
+   },[])
+
 
     return (
            <section className=''>
@@ -114,8 +120,8 @@ const Banner = () => {
               </div>
             <div className='banner-left '>
                 <div className='p-5 mt-6'>
-                    <h3 className='text-xl '> Wellcome to my world </h3>
-                    <h1 className='lg:text-5xl md:text-3xl text-2xl mt-3 font-bold'> Hi, I'm <spanm className ="text-warning"> Ashrafull Islam </spanm>  </h1>
+                    <h3 className='text-xl ' data-aos="fade-down" > Wellcome to my world </h3>
+                    <h1 className='lg:text-5xl md:text-3xl text-2xl mt-3 font-bold' data-aos="fade-right"> Hi, I'm <span className ="text-warning" > Ashrafull Islam </span>  </h1>
                     <h1 className='lg:text-5xl md:text-3xl text-2xl font-bold mt-5'>
                         A   
                  <span className=' font-bold lg:text-5xl md:text-3xl text-2xl ml-3'>
@@ -132,7 +138,7 @@ const Banner = () => {
                     />
                     </span>
                     </h1>
-                    <p className='mt-6 text-xl'>
+                    <p className='mt-6 text-xl' data-aos="fade-up">
                     I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.
                     </p>
 
@@ -176,14 +182,14 @@ const Banner = () => {
                   </div>
                 </div>
                
-                      <div className='lg:ml-4 mt-2 '>
+                      <div className='lg:ml-4 mt-2 ' data-aos="fade-right">
                       <a href="https://drive.google.com/file/d/1YyFtHDR_23-DhD2l7oGuF5_9Tg0vANNS/view?usp=share_link"> <button className='btn  bg-gradient-to-r from-warning to-primary border-none shadow text-slate-200 hover:bg-gradient-to-r hover:from-primary hover:to-warning ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>
                         </div> 
             </div>
 
   
           {/* Banner right img part  */}
-            <div className="banner-right mt-7  ">
+            <div className="banner-right mt-7  " data-aos="fade-down-left"  data-aos-duration="1500">
             
                 <div>
                     <img src={Image} className="w-full h-full" alt="Owner img" />

@@ -13,7 +13,11 @@
     height: auto;
     padding: 10px;
 }
-
+.education{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
 @media screen and (min-width:300px) and (max-width:992px){
     .about-me-card{
         width: 100%;

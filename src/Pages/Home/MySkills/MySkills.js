@@ -209,7 +209,7 @@ const MySkills = () => {
         </div>
 
         <div>
-         <label > Mongo Db </label>
+         <label > MongoDB </label>
          <ProgressBar
           width="70%"
           height="10px"
