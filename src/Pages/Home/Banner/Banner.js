@@ -183,7 +183,7 @@ const Banner = () => {
                 </div>
                
                       <div className='lg:ml-4 mt-2 ' >
-                      <a href="https://drive.google.com/file/d/1YyFtHDR_23-DhD2l7oGuF5_9Tg0vANNS/view?usp=share_link"> <button className='btn  bg-gradient-to-r from-warning to-primary border-none shadow text-slate-200 hover:bg-gradient-to-r hover:from-primary hover:to-warning ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>
+                      <a href="https://drive.google.com/file/d/1wtYR2ImsnuM4O99HfxkAeiPslW6ED7SM/view?usp=sharing"> <button className='btn  bg-gradient-to-r from-warning to-primary border-none shadow text-slate-200 hover:bg-gradient-to-r hover:from-primary hover:to-warning ' > Get My Resume <FaArrowRight className='text-xl text-warning ml-3 ' /> </button> </a>
                         </div> 
             </div>
 
